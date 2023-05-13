@@ -118,8 +118,9 @@ app.post("/screenshot", async (req, res) => {
                mesaage: "image upload successfully",
                imageUrl: gyazoRes?.data?.url,
                data: gyazoRes?.data
-               
           }).status("200");
+
+          
 
      } catch (error) {
           console.log(error);
